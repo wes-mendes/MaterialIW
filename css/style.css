@@ -8,11 +8,33 @@ h1{
 
 header{
     width: 100%;
-    background-color: brown;
+    background-color: yellow;
 }
 
 .logo{
-    color: white;
+    color: black;
     text-align: center;
     font-size: 1.4em;
+}
+nav{
+    color: black;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.banner{
+    width: 100%;
+}
+
+.container{
+    background-color: black;
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    background-color: gray;
+    color: aqua;
+    font-size: 1.3em;
+    text-align: center;
 }

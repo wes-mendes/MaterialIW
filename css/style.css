@@ -5,10 +5,7 @@ h1{
     color:red;
     text-align: center;
 }
-p{
-    color: white;
-    text-align: center;
-}
+
 header{
     width: 100%;
     background-color: darkblue;
@@ -33,6 +30,7 @@ nav{
     background-color: black;
     width: 80%;
     margin: auto;
+    color: white;
 }
 
 footer{

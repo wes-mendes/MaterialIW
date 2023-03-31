@@ -2,13 +2,13 @@ body{
     background-color:blue;
 }
 h1{
-    color:yellow;
+    color:red;
     text-align: center;
 }
 
 header{
     width: 100%;
-    background-color: yellow;
+    background-color: darkblue;
 }
 
 .logo{

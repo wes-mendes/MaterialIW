@@ -43,3 +43,7 @@ footer{
     font-size: 1.3em;
     text-align: center;
 }
+p{
+    width: 15%;
+    margin: auto;
+}

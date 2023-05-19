@@ -59,13 +59,15 @@ footer {
 .github {
     float: left;
     padding: 15px;
-    width: 8%;
+    width: 7em;
+    height: 7em;
 }
 
 .instagram {
     float: left;
     padding: 15px;
-    width: 10%;
+    width: 7em;
+    height: 7em;
 }
 
 .sunflower {

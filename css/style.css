@@ -57,11 +57,15 @@ footer {
 }
 
 .github {
+    float: left;
+    padding: 15px;
     width: 4em;
     height: 4em;
 }
 
 .instagram {
+    float: left;
+    padding: 15px;
     width: 7em;
     height: 7em;
 }

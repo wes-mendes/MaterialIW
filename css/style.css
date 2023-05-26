@@ -84,7 +84,6 @@ footer {
     width: 50%;
 }
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
     .linha {
       flex-direction: column;

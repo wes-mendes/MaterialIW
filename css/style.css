@@ -85,23 +85,3 @@ footer {
 .col-6 {
     width: 50%;
 }
-
-@media (max-width: 800px) {
-    .linha {
-      flex-direction: column;
-    }
-
-    .col-6 {
-        width: 100%;
-    }
-  }
-  
-  .banner2 {
-    width: 100%;
-    background-image: linear-gradient(to right, red, darkblue);
-    border-style: double;
-    border-color: red;
-    border-width: 5px;
-    box-shadow: 15px 15px 15px 2px red;
-    transition: 0.3s;
-  }

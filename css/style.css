@@ -97,7 +97,7 @@ footer {
   }
   
   .banner2 {
-    width: 90%;
+    width: 100%;
     background-image: linear-gradient(to right, red, darkblue);
     border-style: double;
     border-color: red;

@@ -101,3 +101,7 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+.listafinal{
+    list-style-image: url('../img/homem-aranha.png');
+}

@@ -104,4 +104,5 @@ table {
 
 .listafinal{
     list-style-image: url('../img/homem-aranha.png');
+    text-align: justify;
 }

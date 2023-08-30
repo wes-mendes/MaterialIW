@@ -22,6 +22,8 @@ header {
     color: black;
     text-align: center;
     font-size: 1.4em;
+    width: 30%;
+    height: 30%;
 }
 
 .logo-topo {
@@ -112,4 +114,13 @@ table {
 
 .gwen{
     width: 30%;
+}
+
+.menu {
+    padding-bottom: 1.5%;
+    gap: 2%;
+}
+
+.menu li{
+    display: inline;
 }

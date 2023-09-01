@@ -20,7 +20,7 @@ header {
 
 .logo {
     color: black;
-    text-align: center;
+    text-align: left;
     font-size: 1.4em;
     width: 30%;
     height: 30%;
@@ -116,11 +116,82 @@ table {
     width: 30%;
 }
 
-.menu {
-    padding-bottom: 1.5%;
-    gap: 2%;
+.link_menu{
+    line-height: 1.5;
+    text-align: center;
+    display: inline;
+  }
+  
+.link_menu a{
+    font-size: 1.2em;
+  }
+  
+.link_menu a:link, .link_menu a:visited{ 
+      color: #fff;
+      text-decoration: none;
+    }  
+    /* mouse over link */
+.link_menu a:hover {
+      color: #ff0000;
+      padding: 0.8%;    
+      background-color: rgba(128, 128, 128, 0.3); 
+      text-decoration: none;
+      border-radius: 15%;
+  
+    }
+    
+    /* selected link */
+.link_menu a:active {
+      color: #FFF;
+      text-decoration: none;
+    }
+
+header {
+    padding: 1.5%;  
+    font-family: 'Patrick Hand', cursive;
+    background-color: darkblue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.menu li{
-    display: inline;
+.fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  
+  }
+  
+  footer{
+    background-color: rgba(128, 128, 128, 0.3); 
+    padding: 1.5%;  
+    font-family: 'Patrick Hand', cursive;
+  }
+
+  @media screen and (max-width:600px) {
+
+  }
+
+  @media screen and (min-width:601px) {
+    
+  header{
+        flex-direction: row;
+    }
+
+    .link_menu{
+        position: absolute;
+        right: 3%;
+        top: 30%;
+        width: 40%;
+    
+      }
+    
+    .link_menu ul li {
+        display: inline;
+        margin-left: 1%;  
+  }
+
 }

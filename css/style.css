@@ -52,10 +52,13 @@ nav {
 }
 
 footer {
-    background-color: gray;
     color: white;
     font-size: 1.3em;
     text-align: center;
+    background-color: rgba(128, 128, 128, 0.3); 
+    padding: 1.5%;  
+    font-family: 'Patrick Hand', cursive;
+    padding-top: 1%;
 }
 
 .jogops5 {
@@ -64,14 +67,8 @@ footer {
     height: 10em;
 }
 
-.github {
-    width: 50px;
-    height: 50px;
-}
-
-.instagram {
-    width: 100px;
-    height: 100px;
+.redes {
+    width: 7%;
 }
 
 .sunflower {
@@ -168,12 +165,6 @@ header {
     right: 0;
     z-index: 1;
   
-  }
-  
-  footer{
-    background-color: rgba(128, 128, 128, 0.3); 
-    padding: 1.5%;  
-    font-family: 'Patrick Hand', cursive;
   }
 
   @media screen and (max-width:600px) {
